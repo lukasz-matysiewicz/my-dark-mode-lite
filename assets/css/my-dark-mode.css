@@ -1,0 +1,7 @@
+body[my-dark-mode='light'], body[my-dark-mode='dark'] {
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+

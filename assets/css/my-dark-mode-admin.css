@@ -1,0 +1,97 @@
+@import url("my-dark-mode-switchers.css");
+
+
+.CodeMirror {
+    max-width: 1200px;
+}
+
+.my-dark-mode-container {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.switcher {
+    padding: 20px 0;
+    display: flex;
+}
+
+.prev {
+    padding: 0 50px;
+}
+
+.my-dark-mode-container .button {
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.my-dark-mode-container input#submit {
+    background: #2271b1;
+}
+.my-dark-mode-container input[type=text] {
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+/* .my-dark-mode-container.colors-group table {
+    display: flex;
+} */
+.my-dark-mode-container th {
+    min-width: 200px;
+}
+.my-dark-mode-container.colors-group th, .my-dark-mode-container.colors-group td {
+    min-width: 350px;
+    vertical-align: middle;
+    text-align: center;
+}
+.my-dark-mode-container.colors-group td {
+    border-top: 1px solid rgba(0,0,0,.15);
+}
+.wp-picker-container .wp-color-result.button {
+    min-height: 40px;
+    padding: 0 0 0 40px;
+}
+.wp-color-result-text {
+    background: #fff;
+    border-radius: 0 9px 9px 0;
+    padding: 5px 20px;
+}
+.my-dark-mode-container h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+button#my_dark_mode_reset_colors {
+    margin-top: 40px;
+}
+.button-primary {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px!important;
+}
+input.switch_input {
+    border-radius: 15px;
+    height: 50px;
+    width: 100px;
+}
+.switcher-info {
+    padding-bottom: 20px;
+}
+.premium-wrapper {
+    position: relative;
+}
+.premium {
+    opacity: 0.5;
+}
+.premium-label {
+    position: absolute;
+    top: 60px;
+    left: 0%;
+    z-index: 12;
+    font-size: 0.8rem;
+    transform: rotate(-5deg);
+    color: orange;
+    font-weight: bolder;
+}
